@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: black;/*#312450*/;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1639,7 +1639,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.75);
 		font-family: Open Sans, Arial, Sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -3282,10 +3282,17 @@
 			background-color: #b74e91;
 		}
 		.wrapper.style5 {
-			background-color: #FFCC00;
+			background-color: rgb(0,143,173);
 		}
 		.wrapper.style6 {
-			background-color: #6699FF;
+			background-color: rgb(0,190,201);
+		}
+		.wrapper.style7 {
+			background-color: rgb(131, 128, 120);
+		}
+
+		.wrapper.style8-alt {
+			background-color: rgb(0,89,121);
 		}
 
 
@@ -3540,7 +3547,7 @@
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.55);
 	}
 
 	#header + #wrapper + #footer > .inner {
