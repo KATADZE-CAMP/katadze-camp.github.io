@@ -3126,6 +3126,7 @@
 				.spotlights > section > .image {
 					width: 100%;
 					height: 50vh;
+					display: none;
 				}
 
 				.spotlights > section > .content {
@@ -3902,6 +3903,8 @@
 				display: none;
 			}
 
+
+
 		}
 
 /* Intro */
@@ -3925,6 +3928,8 @@
 					display: none;
 				}
 
+				
+
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3942,3 +3947,10 @@
 			}
 
 		}
+
+@media (max-width: 500px) {
+	.image {
+		display: none;
+	}
+}
+
